@@ -52,7 +52,7 @@ def run_evaluation(output_path, label_path, exp_name, task):
             for i in range(n_text):
                 if i == head_id:
                     continue
-                cur_pair = (i, head)
+                cur_pair = (i, head_id)
                 if cur_pair in support_pairs:
                     label = "support"
                 elif cur_pair in attack_pairs:
