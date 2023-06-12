@@ -8,7 +8,7 @@ setup(
     install_requires=[
         'torch==1.6.0',
         'pytorch-lightning==1.5.0',
-        'transformers==4.10.3',
+        'transformers==4.30.0',
         'numpy==1.21.6',
         'scikit-learn==1.0.2',
     ]
